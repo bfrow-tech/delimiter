@@ -6,9 +6,10 @@
 
 .ce-delimiter:before {
     display: inline-block;
-    content: "***";
+    content: "- - -";
     font-size: 30px;
-    line-height: 65px;
+    line-height: 25px;
+    color: #757B84;
     height: 30px;
     letter-spacing: 0.2em;
 }
