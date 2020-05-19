@@ -1,15 +1,13 @@
 .ce-delimiter {
-    line-height: 1.6em;
-    width: 100%;
     text-align: center;
 }
 
-.ce-delimiter:before {
+.ce-delimiter::before {
     display: inline-block;
-    content: "- - -";
-    font-size: 30px;
-    line-height: 25px;
+    margin: 40px auto;
+    content: '';
+    width: 360px;
+    border-top: 1px solid #898989;
     color: #757B84;
-    height: 30px;
-    letter-spacing: 0.2em;
+    height: 0;
 }
